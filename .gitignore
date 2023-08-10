@@ -1,0 +1,219 @@
+# ASP.NET Core
+.vscode/
+bin/
+obj/
+TestResults/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]64-Release/
+[Aa][Rr][Mm]64-Debug/
+[Aa][Rr][Mm]64-Profile/
+[Aa][Rr][Mm]64-Test/
+[Aa][Rr][Mm]64-Stage/
+[Aa][Rr][Mm]64-Publish/
+
+# Visual Studio IntelliSense
+.vscode/
+.idea/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+debug/
+release/
+*.ide/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio profiling
+*.vsp
+
+# Tye
+.tye/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio profiling
+*.vsp
+
+# Visual Studio Code
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Rider
+.idea/
+*.suo
+*.user
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio profiling
+*.vsp
+
+# Visual Studio Code
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# macOS
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.suo
+*.user
+
+# User-specific files
+*.suo
+*.user
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio profiling
+*.vsp
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# macOS
+.DS_Store
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio profiling
+*.vsp
+
+# macOS
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/
