@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "621fd99d-045d-48c8-950e-487776eb5bb8": {
+      "ProjectGuid": "621fd99d-045d-48c8-950e-487776eb5bb8",
+      "DisplayName": "usersAPI.Services",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
