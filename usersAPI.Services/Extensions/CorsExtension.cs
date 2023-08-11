@@ -1,4 +1,4 @@
-﻿namespace usersAPI.Services.Extensions
+﻿namespace UsersAPI.Services.Extensions
 {
     public class CorsExtension
     {
