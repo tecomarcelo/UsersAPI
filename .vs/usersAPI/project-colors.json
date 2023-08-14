@@ -3,9 +3,29 @@
   "ProjectMap": {
     "621fd99d-045d-48c8-950e-487776eb5bb8": {
       "ProjectGuid": "621fd99d-045d-48c8-950e-487776eb5bb8",
-      "DisplayName": "usersAPI.Services",
+      "DisplayName": "UsersAPI.Services",
       "ColorIndex": 0
+    },
+    "d7d81eb8-b6fb-4d03-8e1a-1356f8a6224a": {
+      "ProjectGuid": "d7d81eb8-b6fb-4d03-8e1a-1356f8a6224a",
+      "DisplayName": "UsersAPI.Application",
+      "ColorIndex": 1
+    },
+    "ffb70f5e-7f48-4cb5-825d-5a377cb75f2a": {
+      "ProjectGuid": "ffb70f5e-7f48-4cb5-825d-5a377cb75f2a",
+      "DisplayName": "UsersAPI.Domain",
+      "ColorIndex": 2
+    },
+    "fc9a1693-ca52-496f-a424-8ea33eaae769": {
+      "ProjectGuid": "fc9a1693-ca52-496f-a424-8ea33eaae769",
+      "DisplayName": "UsersAPI.Infra.Data",
+      "ColorIndex": 3
+    },
+    "1ca79a46-be85-4843-992b-b4c5c9de3e3e": {
+      "ProjectGuid": "1ca79a46-be85-4843-992b-b4c5c9de3e3e",
+      "DisplayName": "UsersAPI.Tests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 5
 }
