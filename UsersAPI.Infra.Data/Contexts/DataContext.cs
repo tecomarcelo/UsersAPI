@@ -10,14 +10,15 @@ namespace UsersAPI.Infra.Data.Contexts
 {
     public class DataContext : DbContext
     {
-        //Mapeando os modelos de dominio do contexto
+        //mapeando os modelos de domínio deste contexto 
         public DbSet<User> Users { get; set; }
 
-        //Sobrescrever o méotodo OnConfiguring para definir o tipo de banco de dados do projeto
+        //sobrescrever o método OnConfiguring para definir o tipo
+        //de banco de dados do projeto
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //definindo o banco de dados do contexto
-            optionsBuilder.UseInMemoryDatabase(databaseName: "db_users");
-    }        
+            optionsBuilder.UseInMemoryDatabase(databaseName: "bd_users");
+        }
     }
 }

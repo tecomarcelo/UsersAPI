@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{621FD99D-045D-48C8-950E-487776EB5BB8}|usersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621FD99D-045D-48C8-950E-487776EB5BB8}|usersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621FD99D-045D-48C8-950E-487776EB5BB8}|usersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621FD99D-045D-48C8-950E-487776EB5BB8}|usersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC9A1693-CA52-496F-A424-8EA33EAAE769}|UsersAPI.Infra.Data\\UsersAPI.Infra.Data.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.infra.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC9A1693-CA52-496F-A424-8EA33EAAE769}|UsersAPI.Infra.Data\\UsersAPI.Infra.Data.csproj|solutionrelative:usersapi.infra.data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC9A1693-CA52-496F-A424-8EA33EAAE769}|UsersAPI.Infra.Data\\UsersAPI.Infra.Data.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC9A1693-CA52-496F-A424-8EA33EAAE769}|UsersAPI.Infra.Data\\UsersAPI.Infra.Data.csproj|solutionrelative:usersapi.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\usersAPI.Services\\Program.cs",
-              "RelativeDocumentMoniker": "usersAPI.Services\\Program.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\usersAPI.Services\\Program.cs",
-              "RelativeToolTip": "usersAPI.Services\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T11:02:32.769Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CorsExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\usersAPI.Services\\Extensions\\CorsExtension.cs",
-              "RelativeDocumentMoniker": "usersAPI.Services\\Extensions\\CorsExtension.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\usersAPI.Services\\Extensions\\CorsExtension.cs",
-              "RelativeToolTip": "usersAPI.Services\\Extensions\\CorsExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Services\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UsersAPI.Services\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T10:51:23.715Z",
+              "WhenOpened": "2025-08-27T14:59:55.996Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1102,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Data\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "UsersAPI.Infra.Data\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Data\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "UsersAPI.Infra.Data\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-08-14T13:25:37.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "UsersAPI.Infra.Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "UsersAPI.Infra.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-08-14T13:25:20.813Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

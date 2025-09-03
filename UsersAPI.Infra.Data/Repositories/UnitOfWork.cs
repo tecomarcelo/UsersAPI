@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UsersAPI.Domain.Interfaces.Repositores;
 using UsersAPI.Domain.Interfaces.Repositories;
 using UsersAPI.Infra.Data.Contexts;
 
@@ -20,12 +19,12 @@ namespace UsersAPI.Infra.Data.Repositories
 
         public IUserRepository UserRepository => new UserRepository(_dataContext);
 
-        public void Dispose()
+        public void SaveChanges()
         {
             _dataContext?.SaveChanges();
         }
 
-        public void SaveChanges()
+        public void Dispose()
         {
             _dataContext?.Dispose();
         }

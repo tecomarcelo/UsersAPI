@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UsersAPI.Domain.Interfaces.Repositores;
+using UsersAPI.Domain.Interfaces.Repositories;
 using UsersAPI.Domain.Models;
 using UsersAPI.Infra.Data.Contexts;
 

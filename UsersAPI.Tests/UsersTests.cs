@@ -38,6 +38,5 @@ namespace UsersAPI.Tests
         {
             //TODO
         }
-
     }
 }

@@ -1,15 +1,15 @@
-# UsersAPI - COTI Informática
+# UsersAPI
 
 API para controle de usuários - Curso C# Avançado Formação Arquiteto
 
 ## Informações
 
-- **Título:** UsersAPI - COTI Informática
+- **Título:** UsersAPI
 - **Descrição:** API para controle de usuários - Curso C# Avançado Formação Arquiteto
 - **Contato:** 
   - **Nome:** COTI Informática
-  - **URL:** [http://www.cotiinformatica.com.br](http://www.cotiinformatica.com.br)
-  - **Email:** contato@cotiinformatica.com.br
+  - **URL:** [http://www.teste.com.br](http://www.teste.com.br)
+  - **Email:** tecomarcelo@hotmail.com
 - **Versão:** v1
 
 ## Endpoints

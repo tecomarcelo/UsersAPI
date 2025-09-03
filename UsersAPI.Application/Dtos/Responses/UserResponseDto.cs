@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UsersAPI.Application.Models
+namespace UsersAPI.Application.Dtos.Responses
 {
-    public class User
+    public class UserResponseDto
     {
-        public Guid Id { get; set; }
+        public Guid? Id { get; set; }
         public string? Name { get; set; }
         public string? Email { get; set; }
-        public string? Password { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; }
     }
 }

@@ -8,7 +8,6 @@ namespace UsersAPI.Services.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-
         /// <summary>
         /// Autenticar o usuário
         /// </summary>

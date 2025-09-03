@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UsersAPI.Domain.Interfaces.Repositores;
+using UsersAPI.Domain.Interfaces.Repositories;
 using UsersAPI.Infra.Data.Contexts;
 
 namespace UsersAPI.Infra.Data.Repositories
@@ -17,7 +17,6 @@ namespace UsersAPI.Infra.Data.Repositories
         {
             _dataContext = dataContext;
         }
-
 
         public virtual void Add(TEntity entity)
         {

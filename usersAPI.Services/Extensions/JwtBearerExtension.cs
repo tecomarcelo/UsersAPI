@@ -5,15 +5,14 @@ namespace UsersAPI.Services.Extensions
 {
     public static class JwtBearerExtension
     {
-        public static IServiceCollection AddJwtBearer
-            (this IServiceCollection services)
+        public static IServiceCollection AddJwtBearer(this IServiceCollection services)
         {
             //definindo a política de autenticação do projeto
             services.AddAuthentication(auth =>
             {
                 auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
+            })                
                 .AddJwtBearer(options =>
                 {
                     //definindo as preferencias para autenticação com TOKEN JWT
@@ -25,6 +24,7 @@ namespace UsersAPI.Services.Extensions
                         ValidateIssuerSigningKey = true, //validar a chave secreta utilizada pelo emissor do token
                     };
                 });
+
             return services;
         }
     }
