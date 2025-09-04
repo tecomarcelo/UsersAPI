@@ -8,7 +8,7 @@
         {
             services.AddCors(s => s.AddPolicy(_policyName, builder => 
             {
-                //qualquer domínio pode acessar a API
+                       //qualquer domínio pode acessar a API
                 builder.AllowAnyOrigin()
                        //qualquer método (POST, PUT, DELETE, GET etc) pode ser acessado
                        .AllowAnyMethod()

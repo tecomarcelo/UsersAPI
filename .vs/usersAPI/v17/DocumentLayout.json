@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,12 +29,17 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CorsExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Extensions\\CorsExtension.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Services\\Extensions\\CorsExtension.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Extensions\\CorsExtension.cs",
+              "RelativeToolTip": "UsersAPI.Services\\Extensions\\CorsExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T19:27:19.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +49,7 @@
               "RelativeDocumentMoniker": "UsersAPI.Services\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Controllers\\UsersController.cs",
               "RelativeToolTip": "UsersAPI.Services\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T14:59:55.996Z",
               "EditorCaption": ""
