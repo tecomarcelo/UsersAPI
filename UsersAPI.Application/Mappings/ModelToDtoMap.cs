@@ -14,6 +14,7 @@ namespace UsersAPI.Application.Mappings
         public ModelToDtoMap()
         {
             CreateMap<User, UserResponseDto>();
+                //Caso a Entidade não fosse igual a Dto pode-se fazer um "de para" explicito. Ex:
                 /*.AfterMap((model, dto) =>
                 {
                     dto.Id = model.Id;

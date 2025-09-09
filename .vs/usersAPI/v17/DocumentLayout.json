@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BC58F20-17DC-4E51-A4BD-BC3E638765F7}|UsersAPI.Application\\UsersAPI.Application.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.application\\dtos\\requests\\useraddrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC58F20-17DC-4E51-A4BD-BC3E638765F7}|UsersAPI.Application\\UsersAPI.Application.csproj|solutionrelative:usersapi.application\\dtos\\requests\\useraddrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\extensions\\corsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BF53236-60FE-4037-8128-8ADF6C74036F}|UsersAPI.Infra.IoC\\UsersAPI.Infra.IoC.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.infra.ioc\\extensions\\automapperconfigextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF53236-60FE-4037-8128-8ADF6C74036F}|UsersAPI.Infra.IoC\\UsersAPI.Infra.IoC.csproj|solutionrelative:usersapi.infra.ioc\\extensions\\automapperconfigextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC58F20-17DC-4E51-A4BD-BC3E638765F7}|UsersAPI.Application\\UsersAPI.Application.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.application\\services\\authappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC58F20-17DC-4E51-A4BD-BC3E638765F7}|UsersAPI.Application\\UsersAPI.Application.csproj|solutionrelative:usersapi.application\\services\\authappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC58F20-17DC-4E51-A4BD-BC3E638765F7}|UsersAPI.Application\\UsersAPI.Application.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.application\\services\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC58F20-17DC-4E51-A4BD-BC3E638765F7}|UsersAPI.Application\\UsersAPI.Application.csproj|solutionrelative:usersapi.application\\services\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CorsExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Extensions\\CorsExtension.cs",
-              "RelativeDocumentMoniker": "UsersAPI.Services\\Extensions\\CorsExtension.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Extensions\\CorsExtension.cs",
-              "RelativeToolTip": "UsersAPI.Services\\Extensions\\CorsExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserAddRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Application\\Dtos\\Requests\\UserAddRequestDto.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Application\\Dtos\\Requests\\UserAddRequestDto.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Application\\Dtos\\Requests\\UserAddRequestDto.cs",
+              "RelativeToolTip": "UsersAPI.Application\\Dtos\\Requests\\UserAddRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T19:27:19.254Z",
+              "WhenOpened": "2025-09-05T20:01:27.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "UsersAPI.Services\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "UsersAPI.Services\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AutoMapperConfigExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.IoC\\Extensions\\AutoMapperConfigExtension.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Infra.IoC\\Extensions\\AutoMapperConfigExtension.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.IoC\\Extensions\\AutoMapperConfigExtension.cs",
+              "RelativeToolTip": "UsersAPI.Infra.IoC\\Extensions\\AutoMapperConfigExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T14:59:55.996Z",
+              "WhenOpened": "2025-09-05T19:13:31.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Application\\Services\\AuthAppService.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Application\\Services\\AuthAppService.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Application\\Services\\AuthAppService.cs",
+              "RelativeToolTip": "UsersAPI.Application\\Services\\AuthAppService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T18:36:19.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Application\\Services\\UserAppService.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Application\\Services\\UserAppService.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Application\\Services\\UserAppService.cs",
+              "RelativeToolTip": "UsersAPI.Application\\Services\\UserAppService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAD0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T18:20:19.14Z",
               "EditorCaption": ""
             }
           ]

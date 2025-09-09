@@ -14,7 +14,7 @@ using UsersAPI.Infra.Data.Repositories;
 
 namespace UsersAPI.Infra.IoC.Extensions
 {
-    public static class AutoMapperExtension
+    public static class AutoMapperConfigExtension
     {
         public static IServiceCollection AddAutoMapperConfig(this IServiceCollection services)
         {

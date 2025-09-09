@@ -14,8 +14,8 @@ namespace UsersAPI.Application.Dtos.Requests
         public string? Email { get; set; }
 
         [Required(ErrorMessage = "Informe a senha de acesso.")]
-        [RegularExpression(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$%^&+=])(?!.*\s).{8,}$", 
-            ErrorMessage = "Informe uma senha forte com pelo menos 8 caracteres.")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^a-zA-Z0-9]).{8,}$", 
+            ErrorMessage = "Informe uma senha forte com pelo menos 8 caracteres, letras maiusculas/minuscular, número e caracter especial.")]
         public string? Password { get; set; }
     }
 }
