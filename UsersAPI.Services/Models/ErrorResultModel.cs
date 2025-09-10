@@ -1,0 +1,16 @@
+﻿using Newtonsoft.Json;
+
+namespace UsersAPI.Services.Models
+{
+    public class ErrorResultModel
+    {
+        public int? StatusCode { get; set; }
+        public string? Message { get; set; }
+
+        //retorna os dados da classe em formato JSON (serializados).
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
+    }
+}

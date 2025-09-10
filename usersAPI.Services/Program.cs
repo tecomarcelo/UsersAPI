@@ -1,5 +1,6 @@
 using UsersAPI.Infra.IoC.Extensions;
 using UsersAPI.Services.Extensions;
+using UsersAPI.Services.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +11,11 @@ builder.Services.AddJwtBearer();
 builder.Services.AddCorsPolicy();
 builder.Services.AddDependencyInjection();
 builder.Services.AddAutoMapperConfig();
+builder.Services.AddDbContextConfig(builder.Configuration);
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseSwaggerDoc();
 app.UseAuthentication();

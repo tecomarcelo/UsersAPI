@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UsersAPI.Domain.Exceptions;
 using UsersAPI.Domain.Interfaces.Repositories;
 using UsersAPI.Domain.Interfaces.Services;
 using UsersAPI.Domain.Models;
@@ -20,6 +21,9 @@ namespace UsersAPI.Domain.Services
 
         public void Add(User user)
         {
+            if (Get(user.Email) != null)
+                throw new EmailAlreadyExistsException(user.Email);
+
             _unitOfWork?.UserRepository.Add(user);
             _unitOfWork?.SaveChanges();
         }
