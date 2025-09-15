@@ -37,7 +37,7 @@ namespace UsersAPI.Infra.Messages.Services
                     {
             new
             {
-                From = new { Email = sender, Name ="API users" }, //"API para controle de usuários - Curso C# Avançado Formação Arquiteto" },
+                From = new { Email = sender, Name ="API para controle de usuários - Curso C# Avançado Formação Arquiteto" },
                 To   = new[] { new { Email = userMessage.To, Name = userMessage.To } },
                 Subject = userMessage.Subject ?? "Sem assunto",
                 TextPart = userMessage.Body ?? "",

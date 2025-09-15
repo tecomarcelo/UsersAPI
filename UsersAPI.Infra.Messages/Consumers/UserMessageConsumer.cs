@@ -1,12 +1,8 @@
-﻿using Mailjet.Client;
-using Mailjet.Client.Resources;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System.Net.Http.Headers;
 using System.Text;
 using UsersAPI.Domain.ValueObjects;
 using UsersAPI.Infra.Messages.Services;
@@ -17,7 +13,7 @@ namespace UsersAPI.Infra.Messages.Consumers
     public class UserMessageConsumer : BackgroundService
     {
         private readonly RabbitMQSettings? _rabbitMQSettings;
-        private readonly EmailMessageService _emailMessageService;
+        private readonly EmailMessageService? _emailMessageService;
 
         public UserMessageConsumer(IOptions<RabbitMQSettings?> rabbitMQSettings, EmailMessageService emailMessageService)
         {
@@ -33,22 +29,27 @@ namespace UsersAPI.Infra.Messages.Consumers
 
             channel.QueueDeclare(_rabbitMQSettings.Queue, durable: true, exclusive: false, autoDelete: false);
 
+            //objeto utilizado para ler e processar a fila
             var consumer = new EventingBasicConsumer(channel);
+            
+            //criando o mecanismo para ler cada item da fila
             consumer.Received += async (sender, args) =>
             {
                 var body = args.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
 
-                var userMessage = JsonConvert.DeserializeObject<UserMessageVO>(message);
+                var userMessageVO = JsonConvert.DeserializeObject<UserMessageVO>(message);
 
-                if (userMessage != null)
+                if (userMessageVO != null)
                 {
-                    await _emailMessageService.SendEmailAsync(userMessage);
+                    await _emailMessageService.SendEmailAsync(userMessageVO);
                 }
 
+                //removendo o item da fila
                 channel.BasicAck(args.DeliveryTag, false);
             };
 
+            //executando a leitura da fila
             channel.BasicConsume(_rabbitMQSettings.Queue, autoAck: false, consumer);
 
             return Task.CompletedTask;

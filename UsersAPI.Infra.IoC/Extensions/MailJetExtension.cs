@@ -10,7 +10,7 @@ namespace UsersAPI.Infra.IoC.Extensions
         public static IServiceCollection AddMailJet(this IServiceCollection services, IConfiguration configuration)
         {
             services.Configure<MailJetSettings>(configuration.GetSection("MailJetSettings"));
-            services.AddSingleton<EmailMessageService>();
+            services.AddTransient<EmailMessageService>();
 
             return services;
         }
