@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using UsersAPI.Application.Dtos.Requests;
+using UsersAPI.Application.Dtos.Responses;
 using UsersAPI.Application.Interfaces.Application;
 
 namespace UsersAPI.Services.Controllers
@@ -25,6 +26,7 @@ namespace UsersAPI.Services.Controllers
         // [AllowAnonymous] permite uso sem a autenticação
         [AllowAnonymous]
         [HttpPost]
+        [ProducesResponseType(typeof(UserResponseDto), 201)]
         public IActionResult Add([FromBody] UserAddRequestDto dto)
         {
             return StatusCode(201, _userAppService?.Add(dto));

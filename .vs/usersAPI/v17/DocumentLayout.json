@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D206CF56-279D-4808-B775-B302FC7C4D91}|UsersAPI.Infra.Messages\\UsersAPI.Infra.Messages.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.infra.messages\\services\\emailmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206CF56-279D-4808-B775-B302FC7C4D91}|UsersAPI.Infra.Messages\\UsersAPI.Infra.Messages.csproj|solutionrelative:usersapi.infra.messages\\services\\emailmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206CF56-279D-4808-B775-B302FC7C4D91}|UsersAPI.Infra.Messages\\UsersAPI.Infra.Messages.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.infra.messages\\consumers\\usermessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206CF56-279D-4808-B775-B302FC7C4D91}|UsersAPI.Infra.Messages\\UsersAPI.Infra.Messages.csproj|solutionrelative:usersapi.infra.messages\\consumers\\usermessageconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C327254-D957-4CD7-BDBA-291E9C36B4A1}|UsersAPI.Domain\\UsersAPI.Domain.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.domain\\services\\userdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C327254-D957-4CD7-BDBA-291E9C36B4A1}|UsersAPI.Domain\\UsersAPI.Domain.csproj|solutionrelative:usersapi.domain\\services\\userdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D206CF56-279D-4808-B775-B302FC7C4D91}|UsersAPI.Infra.Messages\\UsersAPI.Infra.Messages.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.infra.messages\\producers\\usermessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D206CF56-279D-4808-B775-B302FC7C4D91}|UsersAPI.Infra.Messages\\UsersAPI.Infra.Messages.csproj|solutionrelative:usersapi.infra.messages\\producers\\usermessageproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|c:\\users\\teco\\csharp_novo\\projetosdevops\\usersapi\\usersapi.services\\models\\errorresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A65CF14F-34CC-469E-AC2A-2FC91C80EDDC}|UsersAPI.Services\\UsersAPI.Services.csproj|solutionrelative:usersapi.services\\models\\errorresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\appsettings.json",
-              "RelativeDocumentMoniker": "UsersAPI.Services\\appsettings.json",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\appsettings.json",
-              "RelativeToolTip": "UsersAPI.Services\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-10T19:03:18.062Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -51,40 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Program.cs",
-              "RelativeDocumentMoniker": "UsersAPI.Services\\Program.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Program.cs",
-              "RelativeToolTip": "UsersAPI.Services\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T19:39:43.721Z",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\appsettings.json",
+              "RelativeDocumentMoniker": "UsersAPI.Services\\appsettings.json",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\appsettings.json",
+              "RelativeToolTip": "UsersAPI.Services\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-11T19:06:08.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ErrorResultModel.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Models\\ErrorResultModel.cs",
-              "RelativeDocumentMoniker": "UsersAPI.Services\\Models\\ErrorResultModel.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Models\\ErrorResultModel.cs",
-              "RelativeToolTip": "UsersAPI.Services\\Models\\ErrorResultModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Title": "UserMessageProducer.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Messages\\Producers\\UserMessageProducer.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Infra.Messages\\Producers\\UserMessageProducer.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Messages\\Producers\\UserMessageProducer.cs",
+              "RelativeToolTip": "UsersAPI.Infra.Messages\\Producers\\UserMessageProducer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T19:14:26.341Z"
+              "WhenOpened": "2025-09-11T18:03:31.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "UsersAPI.Services\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Services\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "UsersAPI.Services\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAhwBoAAAAzAAAAAAAAAA==",
+              "Title": "UserDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Domain\\Services\\UserDomainService.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Domain\\Services\\UserDomainService.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Domain\\Services\\UserDomainService.cs",
+              "RelativeToolTip": "UsersAPI.Domain\\Services\\UserDomainService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAhwEMAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T19:12:13.177Z",
+              "WhenOpened": "2025-09-11T17:52:52.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Messages\\Services\\EmailMessageService.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Infra.Messages\\Services\\EmailMessageService.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Messages\\Services\\EmailMessageService.cs",
+              "RelativeToolTip": "UsersAPI.Infra.Messages\\Services\\EmailMessageService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T19:00:06.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMessageConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Messages\\Consumers\\UserMessageConsumer.cs",
+              "RelativeDocumentMoniker": "UsersAPI.Infra.Messages\\Consumers\\UserMessageConsumer.cs",
+              "ToolTip": "C:\\Users\\Teco\\CSharp_novo\\ProjetosDevOps\\usersAPI\\UsersAPI.Infra.Messages\\Consumers\\UserMessageConsumer.cs",
+              "RelativeToolTip": "UsersAPI.Infra.Messages\\Consumers\\UserMessageConsumer.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:56:28.234Z",
               "EditorCaption": ""
             }
           ]
