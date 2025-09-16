@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using UsersAPI.Application.Dtos.Requests;
 using UsersAPI.Application.Dtos.Responses;
 using UsersAPI.Application.Interfaces.Application;
+using UsersAPI.Domain.Exceptions;
 using UsersAPI.Domain.Interfaces.Services;
 
 namespace UsersAPI.Application.Services
@@ -25,14 +26,20 @@ namespace UsersAPI.Application.Services
 
         public LoginResponseDto Login(LoginRequestDto dto)
         {
-            var user = _userDomainService?.Get(dto.Email, dto.Password);
-            //TODO Implementar a autenticação do usuário
-            return new LoginResponseDto
+            try
             {
-                AccessToken = string.Empty,
-                Expiration = DateTime.Now,
-                User = _mapper.Map<UserResponseDto>(user)
-            };
+                var accessToken = _userDomainService?.Authenticate(dto.Email, dto.Password);
+                //TODO Implementar a autenticação do usuário
+                return new LoginResponseDto
+                {
+                    AccessToken = accessToken
+                };
+            }
+            catch(AccessDeniedException e)
+            {
+                throw new ApplicationException(e.Message);
+            }
+
         }
 
         public UserResponseDto ForgotPassword(ForgotPasswordRequestDto dto)

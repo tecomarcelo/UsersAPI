@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsersAPI.Infra.IoC", "Users
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersAPI.Infra.Messages", "UsersAPI.Infra.Messages\UsersAPI.Infra.Messages.csproj", "{D206CF56-279D-4808-B775-B302FC7C4D91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersAPI.Infra.Security", "UsersAPI.Infra.Security\UsersAPI.Infra.Security.csproj", "{1B4DE360-CF43-4286-880E-C18BD6F7000B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D206CF56-279D-4808-B775-B302FC7C4D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D206CF56-279D-4808-B775-B302FC7C4D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D206CF56-279D-4808-B775-B302FC7C4D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4DE360-CF43-4286-880E-C18BD6F7000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4DE360-CF43-4286-880E-C18BD6F7000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4DE360-CF43-4286-880E-C18BD6F7000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4DE360-CF43-4286-880E-C18BD6F7000B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{179B2C7A-1942-4F6D-BA3A-141F8EAF9BB6} = {6F20CF0C-21DB-4121-9A4A-8CDE4544B20F}
 		{3BF53236-60FE-4037-8128-8ADF6C74036F} = {20E525A2-C632-4726-875D-FECEA8D5D78D}
 		{D206CF56-279D-4808-B775-B302FC7C4D91} = {20E525A2-C632-4726-875D-FECEA8D5D78D}
+		{1B4DE360-CF43-4286-880E-C18BD6F7000B} = {20E525A2-C632-4726-875D-FECEA8D5D78D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F51B9D33-50D6-4A68-B35D-87A575908956}

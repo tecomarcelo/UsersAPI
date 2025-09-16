@@ -15,5 +15,6 @@ namespace UsersAPI.Domain.Interfaces.Services
         User? Get(Guid id);
         User? Get(string email);
         User? Get(string email, string password);
+        string Authenticate(string email, string password);
     }
 }

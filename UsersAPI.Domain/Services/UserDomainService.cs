@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using UsersAPI.Domain.Exceptions;
 using UsersAPI.Domain.Interfaces.Messages;
 using UsersAPI.Domain.Interfaces.Repositories;
+using UsersAPI.Domain.Interfaces.Security;
 using UsersAPI.Domain.Interfaces.Services;
 using UsersAPI.Domain.Models;
 using UsersAPI.Domain.ValueObjects;
@@ -16,11 +18,13 @@ namespace UsersAPI.Domain.Services
     {
         private readonly IUnitOfWork? _unitOfWork;
         private readonly IUserMessageProducer? _userMessageProducer;
+        private readonly ITokenService? _tokenService;
 
-        public UserDomainService(IUnitOfWork? unitOfWork, IUserMessageProducer? userMessageProducer)
+        public UserDomainService(IUnitOfWork? unitOfWork, IUserMessageProducer? userMessageProducer, ITokenService? tokenService)
         {
             _unitOfWork = unitOfWork;
             _userMessageProducer = userMessageProducer;
+            _tokenService = tokenService;
         }
 
         public void Add(User user)
@@ -66,6 +70,25 @@ namespace UsersAPI.Domain.Services
         public User? Get(string email, string password)
         {
             return _unitOfWork?.UserRepository.Get(u => u.Email.Equals(email) && u.Password.Equals(password));
+        }
+
+        string IUserDomainService.Authenticate(string email, string password)
+        {
+            var user = Get(email, password);
+
+            if (user == null)
+                throw new AccessDeniedException();
+
+            var userAuth = new UserAuthVO
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Role = "USER_ROLE", //perfil do usuário mokado
+                SignedAt = DateTime.Now
+            };
+
+            return _tokenService?.CreateToken(userAuth);
         }
 
         public void Dispose()
