@@ -52,12 +52,13 @@ namespace UsersAPI.Services.Controllers
         }
 
         /// <summary>
-        /// Consultar os dados da conta do usuário
+        /// Consultar os dados da conta do usuário por id
         /// </summary>
         [HttpGet]
-        public IActionResult Get()
+        [ProducesResponseType(typeof(List<UserResponseDto>), 200)]
+        public IActionResult Get(Guid id)
         {
-            return Ok();
+            return StatusCode(200, _userAppService.Get(id));
         }
     }
 }

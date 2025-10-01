@@ -1,0 +1,39 @@
+services:
+
+  usersapi.services:
+    container_name: usersAPI 
+    image: ${DOCKER_REGISTRY-}usersapiservices
+    build:
+      context: .
+      dockerfile: UsersAPI.Services/Dockerfile
+    ports: 
+        - 54321:80
+    depends_on:
+        - db
+        - rabbitmq
+  
+  db:
+    container_name: sqlserverBD
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Your_password123!
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql #volume para nao perder os dados ao fazer restart
+    restart: always
+
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:4-management
+    hostname: "rabbitmq"
+    ports:
+        - 5672:5672
+        - 15672:15672
+    environment:
+        - RABBITMQ_DEFAULT_USER=guest
+        - RABBITMQ_DEFAULT_PASS=guest
+
+volumes:
+  sqlserver_data: 
